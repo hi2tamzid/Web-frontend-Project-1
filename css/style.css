@@ -27,6 +27,35 @@ nav{
 	display: inline-block;
 	width: 100%;
 }
+section{
+	width: 80%;
+	margin: 0 auto;
+}
+h1{
+
+	text-align: center;
+	font-size: calc(2.2em + 1.5vw);
+	font-family: "Denso Var", sans-serif;
+}
+hr{
+	width: 70rem;
+}
+img{
+	width: 100%;
+	transition-property: opacity;
+	transition-duration: .1s;
+	transition-timing-function: linear;
+}
+img:hover{
+	opacity: .8;
+
+}
+
+/*All id styles*/
+#sociallink{
+	font: 2em GT-America, sans-serif;
+	text-align: center;
+}
 
 
 /*All Class Styles*/
@@ -62,8 +91,44 @@ nav{
 
 .logo{
 	fill: #ee3838;
-	/*border: 50px solid green;*/
 }
 .logo1{
 	fill: #ffffff;
+}
+.namestyle{
+	color: #f90000;
+}
+.social-link-style{
+	
+	color: #EE4938;
+}
+.social-link-style:hover{
+	color: #A8291C;
+}
+.image-textbar{
+	display: inline-block;
+	width: 100%;
+}
+.forimage{
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+.sidetext{
+	display: inline-block;
+	width: 50%;
+	margin-top: 4%;
+	margin-left: 4%;
+	/*border: 1px solid black;*/
+	font-size: 21px;
+	font-family: "GT-America", sans-serif;
+}
+.sidetext p{
+	text-align: center;
+}
+.sidetext a{
+	color: #ee3838;
+}
+.sidetext a:hover{
+	color: #A8291C;
 }
