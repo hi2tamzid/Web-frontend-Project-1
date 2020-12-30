@@ -50,13 +50,32 @@ img:hover{
 	opacity: .8;
 
 }
-
+footer{
+	display: inline-block;
+	width: 100%;
+	font-family: "GT-America", sans-serif;
+	font-size: 1.2em;
+}
+i{
+	margin-right: 10%;
+}
 /*All id styles*/
 #sociallink{
 	font: 2em GT-America, sans-serif;
 	text-align: center;
 }
-
+#copyright-text{
+	margin-left: 5%;
+	display: inline-block;
+	float: left;
+}
+#social-icons{
+	width: 10%;
+	/*border: 1px solid black;*/
+	margin-right: 2%;
+	float: right;
+	display: inline-block;
+}
 
 /*All Class Styles*/
 
