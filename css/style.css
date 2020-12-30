@@ -82,6 +82,7 @@ i{
 
 .menubar{
 	text-decoration: none;
+	color: maroon;
 	transition-property: color;
 	transition-duration: .1s;
 	transition-timing-function: linear;
