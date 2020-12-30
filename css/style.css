@@ -1,20 +1,69 @@
-body{
+/*All built-in elements Styles*/
+
+html, body{
 	margin: 0;
 	padding: 0;
 }
-h1{
-	margin: 0;
-	/*padding: 0;*/
+li{
+	display: inline-block;
+	font-family: "GT-America-Bold", sans-serif;
+	font-weight: 600;
+	margin-right: .5em;
 }
-	li{
 
+ul{
+	margin-top: 3em;
+	margin-right: 3em;
+	list-style-type: disc;
 	display: inline-block;
-	margin-left: 1.5%;
+	float: right;
 }
-a{
+
+li:last-child{
+	margin-right: 0;
+}
+
+nav{
+	display: inline-block;
+	width: 100%;
+}
+
+
+/*All Class Styles*/
+
+
+.menubar{
 	text-decoration: none;
-	color: #000000;
+	transition-property: color;
+	transition-duration: .1s;
+	transition-timing-function: linear;
 }
-svg{
+.menubar:hover{
+	color: #ee3838;
+}
+.logolink{
+	margin-top: 1em;
+	margin-left: 1em;
 	display: inline-block;
+	float: left;
+}
+.logo{
+	transition-property: fill;
+	transition-duration: .2s;
+	transition-timing-function: linear;
+	transition-delay: .1s;
+}
+.logo1{
+	transition-property: fill;
+	transition-duration: .2s;
+	transition-timing-function: linear;
+	transition-delay: .1s;
+}
+
+.logo{
+	fill: #ee3838;
+	/*border: 50px solid green;*/
+}
+.logo1{
+	fill: #ffffff;
 }

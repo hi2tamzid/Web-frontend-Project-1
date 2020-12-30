@@ -7,23 +7,45 @@
 	<title></title>
 </head>
 <body>
+
+	<!-- Header element include one svg design & a navigation bar -->
 	
-<!-- <svg title="logo"><use xlink:href="#from-link"></use></svg> -->
 	<header>
-		<nav id="nav">
-			<a href="#" title="Home"><svg height="80" width="80">
-  <circle cx="40" cy="40" r="30" stroke="black" stroke-width="3" fill="black" />
-  Sorry, your browser does not support inline SVG.  
-</svg></a>
+		<nav>
+			<a class="logolink" href="#" >
+
+				<!-- This design is created by SVG editor. But coordinates & interactions are developed by me. -->
+
+				<svg onmouseover="logocolor(0)" onmouseout="logocolor(1)"  width="83" height="62" xmlns="http://www.w3.org/2000/svg">
+					<g>
+	  					<title>background</title>
+	  					<rect fill="#fff" id="canvas_background" height="64" width="85" y="-1" x="-1"/>
+	  					<g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+	   						<rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+	  					</g>
+	 				</g>
+	 				<g>
+	  					<title>Layer 1</title>
+	  					<ellipse stroke="#000" ry="29" rx="36.5" id="svg_1" cy="30" cx="43.5" stroke-width="1.5" fill="#000000"/>
+						<path id="svg_4" d="m-441,24.5" opacity="0.5" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#000000"/>
+						<text stroke="#000" transform="matrix(2.9461989402770996,0,0,1,-121.36374954134226,0) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="32.5" x="49" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000"/>
+						<text stroke="#000" transform="matrix(1.7453523522368073,0,0,1.2472236156463625,-66.15102842760388,-10.445680830627682) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_6" y="39.30178" x="47.97718" stroke-opacity="null" stroke-width="0" fill="#ffffff">TM</text>
+	 				</g>
+				</svg>
+			</a>
 			<ul>
-				<li><a href="#">NOTES</a></li>
-				<li><a href="#">ARTICLES</a></li>
-				<li><a href="#">INFO</a></li>
-				<li><a href="#">SEARCH</a></li>
+				<li><a class = "menubar" href="#">NOTES</a></li>
+				<li><a class = "menubar" href="#">ARTICLES</a></li>
+				<li><a class = "menubar" href="#">INFO</a></li>
+				<li><a class = "menubar" href="#">SEARCH</a></li>
 			</ul>
 		</nav>
 	</header>
+	
+	<!-- header section ended -->
 
+	
+	
 	<script src="js/code.js"></script>
 </body>
 </html>
