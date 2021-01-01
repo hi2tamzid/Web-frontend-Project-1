@@ -1,17 +1,19 @@
+/* -------------------- */
 /*All built-in elements Styles*/
+/* -------------------- */
 
 html, body{
 	margin: 0;
 	padding: 0;
 }
-li{
+.index-ul li{
 	display: inline-block;
 	font-family: "GT-America-Bold", sans-serif;
 	font-weight: 600;
 	margin-right: .5em;
 }
 
-ul{
+.index-ul{
 	margin-top: 3em;
 	margin-right: 3em;
 	list-style-type: disc;
@@ -19,7 +21,7 @@ ul{
 	float: right;
 }
 
-li:last-child{
+.index-ul li:last-child{
 	margin-right: 0;
 }
 
@@ -30,12 +32,6 @@ nav{
 section{
 	width: 80%;
 	margin: 0 auto;
-}
-h1{
-
-	text-align: center;
-	font-size: calc(2.2em + 1.5vw);
-	font-family: "Denso Var", sans-serif;
 }
 hr{
 	width: 70rem;
@@ -59,7 +55,16 @@ footer{
 i{
 	margin-right: 10%;
 }
+figcaption{
+	margin-top: 0.7em;
+	text-align: center;
+}
+
+/* -------------------- */
 /*All id styles*/
+/* -------------------- */
+
+
 #sociallink{
 	font: 2em GT-America, sans-serif;
 	text-align: center;
@@ -77,9 +82,16 @@ i{
 	display: inline-block;
 }
 
+/* -------------------- */
 /*All Class Styles*/
+/* -------------------- */
 
+.index-h1{
 
+	text-align: center;
+	font-size: calc(2.2em + 1.5vw);
+	font-family: "Denso Var", sans-serif;
+}
 .menubar{
 	text-decoration: none;
 	color: maroon;
@@ -151,4 +163,90 @@ i{
 }
 .sidetext a:hover{
 	color: #A8291C;
+}
+section.note-section{
+	/* border: 1px solid black; */
+	width: 60%;
+	margin: 0 auto;
+	padding: 1em;
+	margin-top: 3em;
+}
+section.note-section a{
+	text-decoration: none;
+	color: #3a3a3a;
+	transition: color 0.2s ease-out;
+	font-family: "Denso Var", sans-serif;
+}
+section.note-section a:hover{
+	color: #EE4938;
+}
+.article-heading{
+	margin: 0;
+	margin-top: .4em;
+	margin-bottom: 1em;
+	font-size: 3em;
+}
+.article-style{
+	line-height: 1.8em;
+	font-size: 1.3em;
+	font-family: "GT-America", sans-serif;
+}
+.content-link{
+	color: #EE4938 !important;
+}
+.content-link:hover{
+	color: maroon !important;
+}
+.article-style img{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+.section-profile{
+	border: 1px solid black;
+	display: inline-block;
+}
+.sp-pic{
+	border: 1px solid black;
+	margin-left: 3em;
+	padding: 1em;
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+.p-img{
+	width: 100%;
+}
+.profile-intro{
+	margin-top: 5em;
+	margin-left: 5em;
+	width: 50%;
+	border: 1px solid black;
+	display: inline-block;
+}
+.profile-intro h1{
+	font-size: 2.5em;
+	font-family: "Lucida Handwriting", Cursive;
+}
+.profile-intro p{
+	line-height: 1.5em;
+	font-size: 1.3em;
+	font-family: Helvetica, sans-serif;
+}
+.skill-set{
+
+}
+.info-h1{
+	text-align: center;
+	font-family: "Lucida Handwriting", Cursive;
+	font-size: 3em;
+}
+.info-p{
+	margin-left: 2em;
+	line-height: 1.5em;
+	font-size: 1.5em;
+	font-family: Helvetica, sans-serif;
+}
+.ac-li{
+	font-size: 1.5em;
 }
