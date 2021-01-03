@@ -34,7 +34,7 @@ section{
 	margin: 0 auto;
 }
 hr{
-	width: 70rem;
+	width: 100%;
 }
 img{
 	width: 100%;
@@ -108,6 +108,12 @@ figcaption{
 	display: inline-block;
 	float: left;
 }
+/* .logolink{
+	margin-top: 1em;
+	margin-left: 1em;
+	width: 100px;
+	display: block;
+} */
 .logo{
 	transition-property: fill;
 	transition-duration: .2s;
@@ -203,11 +209,11 @@ section.note-section a:hover{
 	margin: 0 auto;
 }
 .section-profile{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	display: inline-block;
 }
 .sp-pic{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin-left: 3em;
 	padding: 1em;
 	width: 30%;
@@ -221,7 +227,7 @@ section.note-section a:hover{
 	margin-top: 5em;
 	margin-left: 5em;
 	width: 50%;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	display: inline-block;
 }
 .profile-intro h1{
@@ -240,6 +246,7 @@ section.note-section a:hover{
 	text-align: center;
 	font-family: "Lucida Handwriting", Cursive;
 	font-size: 3em;
+	
 }
 .info-p{
 	margin-left: 2em;
@@ -248,5 +255,22 @@ section.note-section a:hover{
 	font-family: Helvetica, sans-serif;
 }
 .ac-li{
+	list-style-position: inside;
+	line-height: 1.5em;
 	font-size: 1.5em;
+	font-family: Helvetica, sans-serif;
+}
+.hob-ul{
+	list-style-type: none;
+}
+.hob-ul li{
+	margin-left: 1.5em;
+	display: inline-block;
+	width: 22%;
+}
+.hob-ul li:first-child{
+	margin-left: 1em;
+}
+.hob-ul li img{
+	height: 225px;
 }
