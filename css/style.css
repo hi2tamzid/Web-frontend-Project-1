@@ -56,7 +56,8 @@ figcaption{
 /* checked */
 #copyright-text{
 	/* border: 1px solid black; */
-	width: 50%;
+	font-size: 0.7+em;
+	width: 40%;
 	margin-left: 5%;
 	display: inline-block;
 	float: left;
@@ -180,9 +181,10 @@ figcaption{
 .sidetext a:hover{
 	color: #A8291C;
 }
+/* checked */
 section.note-section{
 	/* border: 1px solid black; */
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 1em;
 	margin-top: 3em;
@@ -196,15 +198,17 @@ section.note-section a{
 section.note-section a:hover{
 	color: #EE4938;
 }
+/* checked */
 .article-heading{
 	margin: 0;
 	margin-top: .4em;
 	margin-bottom: 1em;
-	font-size: 3em;
+	font-size: 2em;
 }
+/* checked */
 .article-style{
 	line-height: 1.8em;
-	font-size: 1.3em;
+	font-size: 1em;
 	font-family: "GT-America", sans-serif;
 }
 .content-link{
@@ -215,7 +219,7 @@ section.note-section a:hover{
 }
 .article-style img{
 	display: block;
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 .section-profile{
@@ -358,6 +362,29 @@ section.note-section a:hover{
 		/*border: 1px solid black;*/
 		font-size: 21px;
 		font-family: "GT-America", sans-serif;
+	}
+	.article-heading{
+		margin: 0;
+		margin-top: .4em;
+		margin-bottom: 1em;
+		font-size: 3em;
+	}
+	section.note-section{
+		/* border: 1px solid black; */
+		width: 60%;
+		margin: 0 auto;
+		padding: 1em;
+		margin-top: 3em;
+	}
+	.article-style{
+		line-height: 1.8em;
+		font-size: 1.3em;
+		font-family: "GT-America", sans-serif;
+	}
+	.article-style img{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
 	}
 /* -------------------- */
 /* All media id queries */
