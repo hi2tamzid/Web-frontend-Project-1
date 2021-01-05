@@ -222,39 +222,47 @@ section.note-section a:hover{
 	width: 100%;
 	margin: 0 auto;
 }
+/* checked */
 .section-profile{
 	/* border: 1px solid black; */
-	display: inline-block;
+	display: block;
+	width: 90%;
+	margin: 0 auto;
 }
+/* checked */
 .sp-pic{
 	/* border: 1px solid black; */
-	margin-left: 3em;
-	padding: 1em;
-	width: 30%;
-	display: inline-block;
-	float: left;
+	/* margin-left: 3em; */
+	/* padding: 1em; */
+	/* width: 90%; */
+	/* float: left; */
+	margin: 0 auto;
 }
 .p-img{
 	width: 100%;
 }
+/* checked */
 .profile-intro{
-	margin-top: 5em;
-	margin-left: 5em;
-	width: 50%;
+	/* margin-top: 5em; */
+	/* margin-left: 5em; */
+	width: 100%;
 	/* border: 1px solid black; */
-	display: inline-block;
+	/* display: inline-block; */
 }
+/* checked */
 .profile-intro h1{
-	font-size: 2.5em;
-	font-family: "Lucida Handwriting", Cursive;
-}
-.profile-intro p{
-	line-height: 1.5em;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-family: Helvetica, sans-serif;
 }
+/* checked */
+.profile-intro p{
+	line-height: 1.2em;
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+}
+/* checked */
 .skill-set{
-
+	font-size: 10px;
 }
 .info-h1{
 	text-align: center;
@@ -269,7 +277,7 @@ section.note-section a:hover{
 	font-family: Helvetica, sans-serif;
 }
 .ac-li{
-	list-style-position: inside;
+	list-style-position: outside;
 	line-height: 1.5em;
 	font-size: 1.5em;
 	font-family: Helvetica, sans-serif;
@@ -277,13 +285,11 @@ section.note-section a:hover{
 .hob-ul{
 	list-style-type: none;
 }
+/* checked */
 .hob-ul li{
-	margin-left: 1.5em;
-	display: inline-block;
-	width: 22%;
-}
-.hob-ul li:first-child{
-	margin-left: 1em;
+	/* margin-left: 1.5em; */
+	display: block;
+	width: 85%;
 }
 .hob-ul li img{
 	height: 225px;
@@ -385,6 +391,48 @@ section.note-section a:hover{
 		display: block;
 		width: 80%;
 		margin: 0 auto;
+	}
+	.skill-set{
+		font-size: 17px;
+	}
+	.sp-pic{
+		/* border: 1px solid black; */
+		margin-left: 3em;
+		padding: 1em;
+		width: 30%;
+		display: inline-block;
+		float: left;
+	}
+	.profile-intro{
+		margin-top: 5em;
+		margin-left: 5em;
+		width: 50%;
+		/* border: 1px solid black; */
+		display: inline-block;
+	}
+	.section-profile{
+		/* border: 1px solid black; */
+		display: inline-block;
+	}
+	.profile-intro h1{
+		font-size: 2.5em;
+		font-family: "Lucida Handwriting", Cursive;
+	}
+	.profile-intro p{
+		line-height: 1.5em;
+		font-size: 1.3em;
+		font-family: Helvetica, sans-serif;
+	}
+	.ac-li{
+		list-style-position: inside;
+	}
+	.hob-ul li{
+		margin-left: 1.5em;
+		display: inline-block;
+		width: 22%;
+	}
+	.hob-ul li:first-child{
+		margin-left: 1em;
 	}
 /* -------------------- */
 /* All media id queries */
