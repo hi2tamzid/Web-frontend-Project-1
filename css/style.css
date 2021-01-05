@@ -2,30 +2,14 @@
 /*All built-in elements Styles*/
 /* -------------------- */
 
+/* border: 1px solid black; */
+
 html, body{
 	margin: 0;
 	padding: 0;
 }
-.index-ul li{
-	display: inline-block;
-	font-family: "GT-America-Bold", sans-serif;
-	font-weight: 600;
-	margin-right: .5em;
-}
-
-.index-ul{
-	margin-top: 3em;
-	margin-right: 3em;
-	list-style-type: disc;
-	display: inline-block;
-	float: right;
-}
-
-.index-ul li:last-child{
-	margin-right: 0;
-}
-
 nav{
+	/* border: 1px solid black; */
 	display: inline-block;
 	width: 100%;
 }
@@ -66,18 +50,22 @@ figcaption{
 
 
 #sociallink{
-	font: 2em GT-America, sans-serif;
-	text-align: center;
+	font: 1.3em GT-America, sans-serif;
+	/* text-align: center; */
 }
+/* checked */
 #copyright-text{
+	/* border: 1px solid black; */
+	width: 50%;
 	margin-left: 5%;
 	display: inline-block;
 	float: left;
 }
+/* checked */
 #social-icons{
-	width: 10%;
-	/*border: 1px solid black;*/
-	margin-right: 2%;
+	width: 35%;
+	/* border: 1px solid black; */
+	/* margin-right: 1%; */
 	float: right;
 	display: inline-block;
 }
@@ -86,10 +74,33 @@ figcaption{
 /*All Class Styles*/
 /* -------------------- */
 
+
+.index-ul li{
+	display: inline-block;
+	font-family: "GT-America-Bold", sans-serif;
+	font-weight: 600;
+	margin-right: .5em;
+}
+
+/* checked */
+.index-ul{
+	/* border: 1px solid black; */
+	/* margin-right: 3em; */
+	/* list-style-type: disc; */
+	/* display: inline-block; */
+	/* float: right; */
+		text-align: center;
+	padding: 0;
+} 
+
+.index-ul li:last-child{
+	margin-right: 0;
+}
+/* checked */
 .index-h1{
 
 	text-align: center;
-	font-size: calc(2.2em + 1.5vw);
+	font-size: calc(1.2em + 1.5vw);
 	font-family: "Denso Var", sans-serif;
 }
 .menubar{
@@ -102,18 +113,14 @@ figcaption{
 .menubar:hover{
 	color: #ee3838;
 }
+/* checked */
 .logolink{
-	margin-top: 1em;
-	margin-left: 1em;
-	display: inline-block;
-	float: left;
-}
-/* .logolink{
-	margin-top: 1em;
-	margin-left: 1em;
-	width: 100px;
+	/* border: 1px solid black; */
 	display: block;
-} */
+	width: 21%;
+	margin: 0 auto;
+	margin-top: 1em;
+}
 .logo{
 	transition-property: fill;
 	transition-duration: .2s;
@@ -137,26 +144,29 @@ figcaption{
 	color: #f90000;
 }
 .social-link-style{
-	
+	text-decoration: none;
 	color: #EE4938;
 }
 .social-link-style:hover{
 	color: #A8291C;
 }
 .image-textbar{
+	/* border: 1px solid black; */
 	display: inline-block;
 	width: 100%;
 }
+/* checked */
 .forimage{
-	width: 40%;
-	display: inline-block;
-	float: left;
+	width: 100%;
+	/* display: inline-block; */
+	/* float: left; */
 }
+/* checked */
 .sidetext{
-	display: inline-block;
-	width: 50%;
-	margin-top: 4%;
-	margin-left: 4%;
+	/* display: inline-block; */
+	width: 100%;
+	/* margin-top: 4%; */
+	/* margin-left: 4%; */
 	/*border: 1px solid black;*/
 	font-size: 21px;
 	font-family: "GT-America", sans-serif;
@@ -273,4 +283,101 @@ section.note-section a:hover{
 }
 .hob-ul li img{
 	height: 225px;
+}
+
+.svg-text{
+	font-size:18px;
+}
+.svg-ellipse{
+	ry:25px;
+	rx:28px;
+	cy:30px;
+	cx:38.5px;
+}
+.svg{
+	/* border: 1px solid black; */
+	margin: 0 auto;
+	width:75px;
+	height:62px;
+}
+
+
+/* -------------------- */
+/* All media queries */
+/* -------------------- */
+
+
+@media all and (min-width: 480px){
+
+	/* -------------------- */
+/* All media class queries */
+/* -------------------- */
+
+	.logolink{
+		margin-top: 1em;
+		margin-left: 1em;
+		display: inline-block;
+		float: left;
+	}
+	.svg-text{
+		font-size:24px;
+	}
+	.svg-ellipse{
+		ry:29px;
+		rx:36.5px;
+		cy:30px;
+		cx:43.5px;
+	}
+	.svg{
+		width:183px;
+		height:62px;
+	}
+	.index-ul{
+		margin-top: 3em;
+		margin-right: 3em;
+		list-style-type: disc;
+		display: inline-block;
+		float: right;
+	}
+	.index-h1{
+
+		text-align: center;
+		font-size: calc(2.2em + 1.5vw);
+		font-family: "Denso Var", sans-serif;
+	}
+	.forimage{
+		width: 40%;
+		display: inline-block;
+		float: left;
+	}
+	.sidetext{
+		display: inline-block;
+		width: 50%;
+		margin-top: 4%;
+		margin-left: 4%;
+		/*border: 1px solid black;*/
+		font-size: 21px;
+		font-family: "GT-America", sans-serif;
+	}
+/* -------------------- */
+/* All media id queries */
+/* -------------------- */
+
+	#sociallink{
+		font: 2em GT-America, sans-serif;
+		text-align: center;
+	}
+	#copyright-text{
+		/* border: 1px solid black; */
+		/* margin-left: 5%; */
+		display: inline-block;
+		float: left;
+	}
+	#social-icons{
+		width: 10%;
+		/* border: 1px solid black; */
+		margin-right: 2%;
+		float: right;
+		display: inline-block;
+	}
 }
