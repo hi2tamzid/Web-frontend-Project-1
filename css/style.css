@@ -70,7 +70,29 @@ figcaption{
 	float: right;
 	display: inline-block;
 }
-
+/* checked */
+#skill-show{
+}
+/* checked */
+#skill-show button{
+	background: linear-gradient(135deg, #6e8efb, #a777e3);
+	border: none;
+	color: white;
+	padding: 10px 28px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2em;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius: 4px;
+}
+/* checked */
+#skill-h1{
+	display: none;
+}
 /* -------------------- */
 /*All Class Styles*/
 /* -------------------- */
@@ -311,6 +333,37 @@ section.note-section a:hover{
 	height:62px;
 }
 
+.skill-list-li{
+	visibility: hidden;
+	opacity: 0.5;
+	transition-property: opacity,visibility,margin, padding;
+	transition-duration: .6s;
+	transition-timing-function: ease;
+}
+.skill-info-h1{
+	text-align: center;
+	font-family: "Lucida Handwriting", Cursive;
+	font-size: 2em;
+	
+}
+.skill-list-show{
+	visibility: initial;
+	opacity: 1;
+	display: inline-block;
+	font-family: "Lucida Handwriting", Cursive;
+	color: #000000;
+	/* width: 3%; */
+	margin-right: .5em;
+	margin-bottom: .5em;
+	text-align: center;
+	padding: 1em;
+	font-size: 1em;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(132, 70, 168);
+	
+}
 
 /* -------------------- */
 /* All media queries */
@@ -434,6 +487,30 @@ section.note-section a:hover{
 	.hob-ul li:first-child{
 		margin-left: 1em;
 	}
+	.skill-info-h1{
+		text-align: center;
+		font-family: "Lucida Handwriting", Cursive;
+		font-size: 3em;
+		
+	}
+	.skill-list-show{
+		visibility: initial;
+		opacity: 1;
+		display: inline-block;
+		font-family: "Lucida Handwriting", Cursive;
+		color: #000000;
+		/* width: 3%; */
+		margin-right: 1em;
+		margin-bottom: 1em;
+		text-align: center;
+		padding: 1em;
+		font-size: 2em;
+		border-radius: 50%;
+		border-style: solid;
+		border-width: 5px;
+		border-color: rgb(132, 70, 168);
+		
+	}
 /* -------------------- */
 /* All media id queries */
 /* -------------------- */
@@ -456,4 +533,23 @@ section.note-section a:hover{
 		float: right;
 		display: inline-block;
 	}
+	#skill-show{
+	}
+	#skill-show button{
+		background: linear-gradient(135deg, #6e8efb, #a777e3);
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 2em;
+		cursor: pointer;
+		display: block;
+		margin: 0 auto;
+		transition-duration: 0.4s;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		border-radius: 4px;
+	}
+	#skill-h1{
+		display: none;
 }
