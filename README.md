@@ -1,5 +1,5 @@
 # Web-frontend-Project-1
-This is my first front-end web development project. I have learned HTML5, CSS3, Javascript, Responsive Web Design. I will try to implement whatever I learned is necessary for this project.
+This is my first front-end web development project. I have learned HTML5, CSS3, Javascript, Responsive Web Design. I will try to implement whatever I have learned is necessary for this project.
 
 Project: Front-End Project 1
 
